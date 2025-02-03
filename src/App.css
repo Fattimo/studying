@@ -9,7 +9,21 @@
     margin: 0;
 }
 
+@keyframes backandforth {
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: 200px 0;
+    }
+}
+
 .popoverAnchor {
     anchor-name: var(--anchor-name);
     /* display: contents; */
+    /* animation-name: backandforth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s; */
 }
